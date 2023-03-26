@@ -1,0 +1,67 @@
+{
+  "agents": [
+    {
+      "id": 1,
+      "name": "test",
+      "os": "ubuntu",
+      "status": "building",
+      "type": "physical",
+      "ip": "ip",
+      "location": "d",
+      "resources": []
+    },
+    {
+      "id": 2,
+      "name": "test",
+      "os": "windows",
+      "status": "idle",
+      "type": "physical",
+      "ip": "ip",
+      "location": "d",
+      "resources": [
+        "a",
+        " v"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "test",
+      "os": "suse",
+      "status": "idle",
+      "type": "virtual",
+      "ip": "ip",
+      "location": "d",
+      "resources": [
+        "a",
+        "aaa"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "test",
+      "os": "debian",
+      "status": "idle",
+      "type": "virtual",
+      "ip": "ip",
+      "location": "d",
+      "resources": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "test",
+      "os": "centos",
+      "status": "idle",
+      "type": "virtual",
+      "ip": "ip",
+      "location": "d",
+      "resources": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
